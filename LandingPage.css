@@ -4,3 +4,8 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+
+.signup-form__logo {
+    background-image: url(images/SourcesCited--Logo.png);
+    background-repeat: no-repeat;
+}
