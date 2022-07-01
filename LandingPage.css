@@ -5,7 +5,68 @@ body {
     background-size: cover;
 }
 
+.signup-form {
+    margin: 30vh auto 0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.92);
+    width: 363px;
+    padding: 40px 0 38px;
+    border-radius: 4px;
+    vertical-align: baseline;
+}
+
+
 .signup-form__logo {
     background-image: url(images/SourcesCited--Logo.png);
     background-repeat: no-repeat;
+    background-size: contain;
+    display:inline-block;
+    height: 48px;
+    width: 360px;
+    background-color: #ffffff80;
+}
+
+.signup-form__logo-box {
+    text-align: center;
+    background-color: white;
+    width: 360px;
+    padding: 40px 0 40px;
+    border-radius: 4px;
+}
+
+.signup-form__submit,
+.signup-form__submit--login {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 22px;
+    border-style: none;
+    background: #0096FA;
+    outline: none;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    transition: 0.2s background-color;
+    color: white;
+    padding: 0;
+    border: 0;
+    margin-top: 8px
+}
+
+.signup-form__submit--login {
+    color: #5C5C5C;
+    background: rgba(0, 0, 0, 0.4);
+    transition: 0.2s background-color;
+}
+
+.signup-form__submit:hover, 
+.signup-form__submit--login:hover {
+    color: #FFF;
+}
+
+.button {
+    cursor: pointer;
+    text-decoration: none;
 }
