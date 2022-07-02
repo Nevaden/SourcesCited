@@ -54,7 +54,7 @@ body {
     font-weight: bold;
     font-size: 14px;
     text-align: center;
-    transition: 0.2s background-color;
+    
     color: white;
     padding: 0;
     border: 0;
@@ -67,7 +67,11 @@ body {
     transition: 0.2s background-color;
 }
 
-.signup-form__submit:hover, 
+.signup-form__submit:hover {
+    transition: 0.2s background-color;
+    background: #0064fa;
+}
+
 .signup-form__submit--login:hover {
     color: #FFF;
 }
