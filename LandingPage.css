@@ -21,17 +21,23 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     display:inline-block;
-    height: 48px;
-    width: 360px;
-    background-color: #ffffff80;
+    height: 80px;
+    width: 340px;
+    /* background-color: #ffffff00; */
+
+
 }
 
 .signup-form__logo-box {
     text-align: center;
-    background-color: white;
     width: 360px;
-    padding: 40px 0 40px;
+    padding: 20px 0 20px;
     border-radius: 4px;
+}
+
+.signup-form,
+.signup-form__logo-box {
+    margin-bottom: 30px;
 }
 
 .signup-form__submit,
@@ -69,4 +75,11 @@ body {
 .button {
     cursor: pointer;
     text-decoration: none;
+}
+
+
+.signup-form__catchphrase {
+    color: #757c80;
+    font-size: 14px;
+    font-weight: bold;
 }
