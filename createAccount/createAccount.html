@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Create An Account</title>
+    <link rel="stylesheet" href="../shared.css">
+    <link rel="stylesheet" href="createAccount.css">
 </head>
 <body>
+    <main>
+        <section class="login">
+            <div class="login-card">
+              <h1>Create An Account</h1>
+              <div class="inputs">
+                <input class="login-input" type="email" ng-model="email" id="email" placeholder="Desired Username">
+                <input class="login-input" type="password" ng-model="password" id="password" placeholder="password">
+
+              </div>
+              <div class="showPassword_checkbox">
+                <input type="checkbox" class="showPassword_checkbox" onclick="showPasswordCheckbox()" >Show Password
+              </div>
+              <div class="inputs_buttons">
+                <button type="button" name="back" class="btn btn-back"><a href="../LandingPage.html">Back</a></button>
+                <button type="button" name="button" class="btn btn-success"><a href="../mainPage/mainPage.html">Log in</a></button>
+              </div>
+            </div>
+          </section>
+    </main>
     
 </body>
+<script src="../JS/createAccount.js"></script>
 </html>
