@@ -1,4 +1,5 @@
 var backdrop = document.querySelector(".backdrop");
+var main = document
 // var toggleButton = document.querySelector(".toggle-button");
 // var sidebar = document.querySelector('.sidebar');
 // var toggleLogo = document.querySelector('.sidebar-section-ul__item');
@@ -50,13 +51,13 @@ var backdrop = document.querySelector(".backdrop");
   
   function openNav() {
     document.getElementById("mySidebar").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "250px";
+    // document.getElementById("main").style.marginLeft = "250px";
     backdrop.classList.add("open");
 
   }
   
   function closeNav() {
     document.getElementById("mySidebar").style.width = "0";
-    document.getElementById("main").style.marginLeft= "0";
+    // document.getElementById("main").style.marginLeft= "0";
     backdrop.classList.remove("open");
   }

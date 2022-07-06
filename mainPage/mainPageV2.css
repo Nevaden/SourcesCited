@@ -82,6 +82,7 @@
   color: #818181;
   display: block;
   transition: 0.3s;
+
 }
 
 .sidebar a:hover {
@@ -124,12 +125,23 @@
 .item {
   width: 100%
 }
-
+body .post-button{
+  background-color: #fff
+}
 .post-button button {
   background-color: #fff;
 }
 
+body .main-content {
+  margin: 3rem;
+}
 
+body .main-content .card {
+  max-width: 100%;
+  width: 100%;
+  margin: 0rem 0rem ;
+
+}
 
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
