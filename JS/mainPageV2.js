@@ -1,15 +1,14 @@
 var backdrop = document.querySelector(".backdrop");
-var toggleButton = document.querySelector(".toggle-button");
-var sidebar = document.querySelector('.sidebar');
-var toggleLogo = document.querySelector('.sidebar-section-ul__item');
-var navitems = document.querySelector(".nav-items");
-var dd_main = document.querySelector(".dd_main");
+// var toggleButton = document.querySelector(".toggle-button");
+// var sidebar = document.querySelector('.sidebar');
+// var toggleLogo = document.querySelector('.sidebar-section-ul__item');
+// var navitems = document.querySelector(".nav-items");
+// var dd_main = document.querySelector(".dd_main");
 
-  // backdrop.addEventListener("click", function() {
-  //   // mobileNav.style.display = 'none';
-  //   backdrop.classList.remove("open");
-  //   sidebar.classList.remove("open");
-  // });
+  backdrop.addEventListener("click", function() {
+    // mobileNav.style.display = 'none';
+    backdrop.classList.remove("open");
+  });
 
   // toggleLogo.addEventListener("click", function() {
   //   // mobileNav.style.display = 'none';
@@ -25,14 +24,14 @@ var dd_main = document.querySelector(".dd_main");
 
 
 
-  function showPasswordCheckbox() {
-    var x = document.getElementById("password");
-    if (x.type === "password") {
-      x.type = "text";
-    } else {
-      x.type = "password";
-    }
-  }
+  // function showPasswordCheckbox() {
+  //   var x = document.getElementById("password");
+  //   if (x.type === "password") {
+  //     x.type = "text";
+  //   } else {
+  //     x.type = "password";
+  //   }
+  // }
 
   // toggleButton.addEventListener("click", function() {
   //   // mobileNav.style.display = 'block';
@@ -44,9 +43,9 @@ var dd_main = document.querySelector(".dd_main");
 
 
 
-  dd_main.addEventListener("click", function(){
-      this.classList.toggle("active");
-  })
+  // dd_main.addEventListener("click", function(){
+  //     this.classList.toggle("active");
+  // })
 
   
   function openNav() {
