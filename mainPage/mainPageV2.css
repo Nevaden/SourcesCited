@@ -118,6 +118,24 @@
 .open {
   display: block;
 }
+.menu-list__image {
+  cursor: pointer;
+}
+.list-inline-item {
+  background-color: #9198d5 ;
+}
+.list-inline-item a {
+  color: #111;
+}
+.item {
+  width: 100%
+}
+
+.post-button button {
+  background-color: #fff;
+}
+
+
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {

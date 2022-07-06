@@ -1,39 +1,26 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="mainPageV2.css">
     <title>Sources Cited</title>
   </head>
-
   <body id="theBestBody">
     <div class="backdrop"></div>
-
-  
     <div id="mySidebar" class="sidebar">
-      <ul class="list-group list-group-flush justify-content-center">
+      <ul class="list-group list-group-flush justify-content-center list-inline mx-auto text-center align-items-center">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <li class="list-group-item">Sources</li>
-        <li class="list-group-item">Rankings</li>
-        <li class="list-group-item">Discovery</li>
-        <li class="list-group-item">Feed</li>
+        <li class="list-group-item list-inline-item"><a href="">Sources</a> </li></li>
+        <li class="list-group-item list-inline-item"><a href="">Rankings</a> </li></li>
+        <li class="list-group-item list-inline-item"><a href="">Discovery</a></li></li>
+        <li class="list-group-item list-inline-item"><a href="">Feed</a></li></li>
       </ul>
-       
-      <!-- <a href="#">Sources</a>
-      <a href="#">Rankings</a>
-      <a href="#">Discovery</a>
-      <a href="#">Feed</a>  -->
     </div>
-    
     <nav class="navbar navbar-expand-lg navbar-light bg-light py-0">
       <div class="container-fluid">
-
-        <img src="../images/list.svg" alt="3 horizontal lines menu image" height="36px" onclick="openNav()">
+        <a><img src="../images/list.svg" alt="3 horizontal lines menu image" class="menu-list__image" height="36px" onclick="openNav()"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -42,32 +29,87 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#"><img src="../images/SourcesCited--Logo.png" alt="Sources Cited Logo" height="40"></a>
             </li>
-
- 
           </ul>
           <form class="d-flex mx-lg-auto p-7 ml-auto flex-grow-1">
             <input class="form-control me-2" type="search" placeholder="Search for Knowledge" aria-label="Search">
             <li class="nav-item dropdown navbar-brand" id="profile-list-item">
           </form>
-
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <img src="../images/profile-image.png" alt="profile image" height="80px" width="50px" class="img-fluid rounded-3 dropdown-menu-end" id="profile__image" >
               </a>
-              <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+              <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
+                <li class="list-inline-item">Posts: 238</li>
+                <li><a class="dropdown-item" href="#">Theme</a></li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="../LandingPage.html">Logout</a></li>
               </ul>
-            </li>
-
-
-         
+            </li>   
         </div>
       </div>
     </nav>
-
-
+    <div class="container post-button">
+      <div class="col-md-12 bg-light text-right">
+        <button type="button" class="btn btn-outline-danger col-md-12 text-right">Create Post!</button>
+      </div>
+    </div>
+    <div class="container">
+      <!-- Content here -->
+    
+    <div class="card mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="..." class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div><div class="card mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="..." class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div><div class="card mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="..." class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div><div class="card mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="..." class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="../JS/mainPageV2.js"></script>
   </body>
