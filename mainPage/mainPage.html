@@ -9,35 +9,64 @@
 </head>
 <body>
     <div class="backdrop"></div>
+    <nav class="sidebar">
+
+        <img src="../images/SourcesCited--Logo.png" alt="sources cited logo" class="nav-header__logo2">
+        <section class="sidebar-section">
+
+            <ul class="sidebar-section-ul">
+                <a href="#" class="sidebar-section-ul__item" onclick="ToggleBackdrop()">Home</a>
+                <a href="#" class="sidebar-section-ul__item" onclick="ToggleBackdrop()">Following</a>
+                <a href="#" class="sidebar-section-ul__item" onclick="ToggleBackdrop()">Discover</a>
+            </ul>
+
+        </section>
+      </nav>
     <header class="main-header">
         <div>
-            <button class="toggle-button">
-                <span class="toggle-button__bar"></span>
-                <span class="toggle-button__bar"></span>
-                <span class="toggle-button__bar"></span>
-            </button>
-            <a href="mainPage.html" class="main-header__brand">
-                <img src="../images/SourcesCited--Logo__Image.png" alt="Sources Cited - Articles with sources you can rely on">
-            </a>
-        </div>
-        <nav class="main-nav">
-            <ul class="main-nav__items">
-                <li class="main-nav__item">
-                    <a href="packages/index.html">Packages</a>
-                </li>
-                <li class="main-nav__item">
-                    <a href="customers/index.html">Customers</a>
-                </li>
-                <li class="main-nav__item main-nav__item--cta">
-                    <a href="start-hosting/index.html">Start Hosting</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+            <header class="site-header">
+                <button class="toggle-button nav-item__circle">
+                    <span class="toggle-button__bar"></span>
+                    <span class="toggle-button__bar"></span>
+                    <span class="toggle-button__bar"></span>
+                </button>
+                <img src="../images/SourcesCited--Logo__Image.png" alt="source cited logo" class="nav-header__logo">
+                
+                <form action="/search" class="nav__search">
+                    <input type="text" placeholder="Search for knowledge" class="nav__search-bar">
+                </form>
 
-    <nav class="mobile-nav"></nav>
-    <main>
-    </main>
+                <nav class="site-nav">
+                  <ul class="nav-items">
+                    
+                    <li>
+                    <div class="nav_item_hover">
+                        <img src="../images/profile-image.png" alt="Image of Profile" class="nav_item profile-image nav-item__circle">
+                        <img src="../images/down-arrow_icon.png" alt="down_arrow_icon" id="nav_item__arrow" class="nav_item">
+                    </div>
+                    <div class="dropdown_menu">
+						<div class="dropdown_right">
+							<ul>
+								<li>Favorites</li>
+								<li>Settings</li>
+								<li>Logout</li>
+							</ul>
+						</div>
+					</div>
+                    <li>
+                    <button class="nav-item__circle">
+                    <img src="../images/email-icon.png" alt="mail-icon" class="nav_item mail-icon"> 
+                    </button>
+                    </li>
+                  </ul>
+                </nav>
+              </header>
+
+              <main>
+
+              </main>
     <script src="../JS/shared.js"></script>
+    <script src="../JS/mainPage.js"></script>
+
 </body>
 </html>
