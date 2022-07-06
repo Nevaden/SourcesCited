@@ -171,6 +171,10 @@ li {
   align-items: center;
   text-align: center;
 }
+.site-nav .nav_right ul li img{
+	width: 35px;
+	vertical-align: middle;
+}
 
 .nav-header__logo {
   height: 32px;
