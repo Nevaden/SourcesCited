@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sources Cited</title>
     <link rel="stylesheet" href="mainPage.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
+
 <body>
     <div class="backdrop"></div>
     <nav class="sidebar">
@@ -22,51 +24,61 @@
 
         </section>
       </nav>
-    <header class="main-header">
-        <div>
-            <header class="site-header">
+      <div class="container">
+        <div class="row">
+          <div class="col">col</div>
+          <div class="col">col</div>
+          <div class="col">col</div>
+          <div class="col">col</div>
+          <div class="col"></div>
+          <div class="col">col</div>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="navbar">
+            <div class="logo">
                 <button class="toggle-button nav-item__circle">
                     <span class="toggle-button__bar"></span>
                     <span class="toggle-button__bar"></span>
                     <span class="toggle-button__bar"></span>
                 </button>
                 <img src="../images/SourcesCited--Logo__Image.png" alt="source cited logo" class="nav-header__logo">
-                
-                <form action="/search" class="nav__search">
+            </div>
+                    <form action="/search" class="nav__search">
                     <input type="text" placeholder="Search for knowledge" class="nav__search-bar">
                 </form>
-
-                <nav class="site-nav">
-                  <ul class="nav-items">
-                    
-                    <li>
-                    <div class="nav_item_hover">
-                        <img src="../images/profile-image.png" alt="Image of Profile" class="nav_item profile-image nav-item__circle">
+            <div class="nav_right">
+                <ul>
+ 
                         <img src="../images/down-arrow_icon.png" alt="down_arrow_icon" id="nav_item__arrow" class="nav_item">
-                    </div>
-                    <div class="dropdown_menu">
-						<div class="dropdown_right">
-							<ul>
-								<li>Favorites</li>
-								<li>Settings</li>
-								<li>Logout</li>
-							</ul>
-						</div>
-					</div>
-                    <li>
-                    <button class="nav-item__circle">
-                    <img src="../images/email-icon.png" alt="mail-icon" class="nav_item mail-icon"> 
-                    </button>
+                        <img src="../images/profile-image.png" alt="profile_img">
+                        <li class="nr_li">
+                            <button class="nav-item__circle">
+                                <img src="../images/email-icon.png" alt="mail-icon" class="nav_item mail-icon"> 
+                            </button>
+                        </li>
+
+                        <li class="nr_li dd_main"></li>
+                        <div class="dd_menu">
+                            <div class="dd_left">
+
+                            </div>
+                            <div class="dd_right">
+                                <ul>
+                                    <li>Theme</li>
+                                    <li>Settings</li>
+                                    <li><a href="../LandingPage.html">Logout</a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </li>
-                  </ul>
-                </nav>
-              </header>
 
-              <main>
-
-              </main>
+                </ul>
+            </div>
+        </div>
+    </div>	
     <script src="../JS/shared.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="../JS/mainPage.js"></script>
-
 </body>
 </html>
